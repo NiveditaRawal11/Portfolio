@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(124, 184, 161);
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 20px -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius:2em ;
+}
+
+</style>
+</head>
+<body>
+
+<h2><b>Introduction</b></h2>
+<p>Here are my personal details and other information.</p>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3><u>Contact</u></h3>
+      <p>Nivedita Rawal</p>
+      <p>Mail- niveditarawal20@gmail.com</p>
+      <p>Location- Ujjain,M.P.</p>
+      <p>LinkedIn Profile- <a href="https://linkedin.com/in/nivedita-rawal-3b2b391b3">Nivedita Rawal</a></p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3><u>Technical Skills</u></h3>
+      <h3>Programming Languages</h3>
+      <p>C,C++,Java,JavaScript</p>
+      <h3>Tools and Database</h3>
+      <p>HTML,CSS and MySql</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3><u>Soft Skills</u></h3>
+      <p>Leadership Skills</p>
+      <p>Communication Skills</p>
+      <p>Team player</p>
+      <p>Strong work ethic</p>
+      <p>Organized</p>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <h3><u>Under Graduation</u></h3>
+      <p>From- Mahakal Institute of Technology</p>
+      <p>Ujjain</p>
+      <p>Current CGPA- 7.43</p>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>
