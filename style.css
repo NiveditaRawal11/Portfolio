@@ -82,6 +82,7 @@ justify-content: center;
 .details h1{
     font-size: 40px;
     font-family: PopRegular;
+    position:center;
 }
 .details h2{
     font-size: 32px;
@@ -145,7 +146,7 @@ ul li:nth-child(1):before{
     background: #4267B2;
 }
 ul li:nth-child(2):before{
-    background:rgb(173, 36, 36);
+    background: #4267B2;
 }
 ul li:nth-child(1):hover:before{
     box-shadow: 0 0 15px #4267B2;
