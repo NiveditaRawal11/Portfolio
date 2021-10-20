@@ -165,8 +165,8 @@ ul li:nth-child(1){
 }
 ul li:nth-child(2){
     color: #ffa502;
-    box-shadow: 0 0 15px rgb(173,36,36);
-    text-shadow:0 0 15px rgb(173,36,36);
+    box-shadow: 0 0 15px  #4267B2;
+    text-shadow:0 0 15px  #4267B2;
 }
 
   a:link {
