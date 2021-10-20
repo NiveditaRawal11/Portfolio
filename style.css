@@ -154,7 +154,7 @@ ul li:nth-child(1):hover:before{
     filter: blur(3px);
 }
 ul li:nth-child(2):hover:before{
-    box-shadow: 0 0 15px rgb(173, 36, 36)
+    box-shadow: 0 0 15px #4267B2;
     transform: scale(1.2);
     filter: blur(3px);
 }
